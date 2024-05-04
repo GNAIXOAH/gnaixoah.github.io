@@ -1,41 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Adtile Fixed Nav</title>
+    <meta name="author" content="Adtile">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/about_style.css">
+    <script src="js/responsive-nav.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <header>
-        <div class="topbar">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="https://www.linkedin.com/in/haoxiang-hong-489778250/">Linkedin</a></li>
-                    <li><a href="https://github.com/GNAIXOAH">Github</a></li>
-                </ul>
-            </nav>
-            </div>
-    </header>
-    <main>
-        <div class="about_me">
-            <h1>Hi, I'm <span>Harry Hong</span></h1>
-            <p>As a Computer Science major with a passion for technology and innovation, I specialize in software development, cybersecurity, and data analysis. Through various projects, including game development, machine learning models, and sentiment analysis, I've honed my skills in Python, Java, and C. My experience reflects a strong foundation in technical problem-solving, teamwork, and a continuous drive for learning. Currently seeking summer internship opportunities, I'm eager to apply my expertise in a dynamic environment, contributing to impactful projects and expanding my professional horizons.</p>
-        </div>
-        <div class="images">
-            <img src="img/about.jpg" alt="about">
-        </div>
-    </main>
-    <footer>
-        <div class = "footer">
-            <p>&copy; 2024 Harry Hong. All rights reserved.</p>
+      <div class="header">
+        <h1>About Us</h1>
+        <div class="nav">
+          <nav class="nav-collapse">      
             <ul>
-                <li><a href="Resume.pdf">Download Resume</a></li>
-                <li><a href="mailto: gnaixoah@unc.edu">Email</a></li>
+              <li class="menu-item"><a href="index.html" data-scroll>Home</a></li>
+              <li class="menu-item">
+                <div class="DropDown">
+                  <a href="" data-scroll class="DropBTN">About Us</a>
+                  <div class="dropdown-content" id="d1">
+                    <a href="about.html">Our Mission</a>
+                    <a href="team.html">Join Us</a>
+                    <a href="about.html">Listen from Us</a>
+                  </div>
+                </div>
+            </li>
+              <li class="menu-item"><a href="./team.html" data-scroll>Team</a></li>
+              <li class="menu-item">
+                <div class="DropDown">
+                  <a href="" data-scroll class="DropBTN">Apply Now</a>
+                  <div class="dropdown-content" id="d2">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZRzObqUl590IITCI9Rx8Z4Sz5NhyaWwDscFf9fTVil-4vSg/viewform?usp=sf_link">Be a Coach</a>
+                    <a href="login.html">Be a Client</a>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item"><a href="mailto:vinceli@unc.edu.com" data-scroll>Contact Us</a></li>
+              <li class="menu-item"><a href="login.html" data-scroll>Sign In</a></li>
             </ul>
+          </nav>
         </div>
-    </footer>
-</body>
+      </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="news box">
+              <h2>news</h2>
+              <h3><u>Empowering Success: Coaching Team Update</u></h3>
+              <p>
+                The new training schedules for the upcoming quarter are now available.
+                Please check your email for your personalized timetable and make sure
+                to confirm your availability by the end of the week.
+              </p>
+              <h3><u>Welcome Our New Coaches!</u></h3>
+              <p>
+                We're thrilled to welcome two new members to our coaching team, Coach
+                Thompson and Coach Lee. They bring a wealth of experience in strategic
+                development and performance psychology. Meet them at the welcome mixer
+                next Friday!
+              </p>
+              <h3><u>Annual Performance Review Approaching</u></h3>
+              <p>
+                Reminder: Annual performance reviews are scheduled to begin next
+                month. These sessions are a great opportunity to reflect on your
+                progress and set new goals. Please prepare to discuss your past year's
+                achievements and future aspirations.
+              </p>
+              <h3><u>Year-End Retreat Announcement</u></h3>
+              <p>
+                We are delighted to announce our year-end retreat scheduled for December 5-7, focusing on “Strategic Growth and Personal Development”. This retreat will be a fantastic opportunity to network, reflect on the year's successes, and plan for a productive future. Detailed itineraries will be sent out next month.
+
+              </p>
+              <h3><u>Upcoming Coaching Seminar: Mastering Communication</u></h3>
+              <p>Mark your calendars! We are hosting a seminar on "Mastering Communication in Coaching" on June 15th. This event will feature renowned speakers and provide practical insights into enhancing dialogue with athletes. Whether you're a novice or a seasoned coach, this seminar promises to be invaluable.</p>
+            </div>
+            <div class="main-content">
+              <div class="pic"><img src="pic/about.gif" alt="about" /></div>
+              <div class="upper">
+                  <div class="h2"> <h1>About Us</h1></div>
+                <div class="mission">
+                  <h1><u>Our Mission</u></h1>
+                  <p>
+                    <b>Our Mission:</b> "To provide innovative and
+                    scientifically-backed coaching that not only prepares our clients
+                    for success but also fosters holistic personal growth and
+                    sustainable high performance."
+                  </p>
+                </div>
+                <div class="vision">
+                  <h1><u>Our Vision</u></h1>
+                  <p>
+                    <b>Our Vision:</b> "To be the world's leading coaching
+                    institution, recognized for our commitment to excellence and our
+                    unique approach to personal and professional development."`
+                  </p>
+                </div>
+              </div>
+              <div class="lower">
+                <div class="do">
+                  <h1><u>What We Do</u></h1>
+                  <p>
+                    <b>What We Do:</b> "Through our bespoke programs such as 'Mind
+                    Over Matter' and 'Leadership 360', we empower individuals and
+                    teams across various sectors to achieve their best. Our programs
+                    are designed to enhance physical endurance, emotional resilience,
+                    and leadership skills, making our clients well-rounded performers
+                    in all aspects of life."
+                  </p>
+                </div>
+                <div class="are">
+                  <h1><u>Who We Are</u></h1>
+                  <p>
+                    <b>Who We Are:</b> "At Carolina Coaching Club, we're more than
+                    just a coaching club; we're a transformative experience dedicated
+                    to maximizing personal and professional potential. Founded by
+                    renowned Olympic coach Dr. Helena Strauss, our academy combines
+                    scientific research with practical experience to offer unrivaled
+                    coaching services."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+  </main>
+
+  <footer>
+    <div class="FooterLabel">                
+        <p>&copy; Carolina Coaching Club</p>
+        <p>All Right Reserved</p>
+    </div>
+    <div class="PersonalInfo">
+        <address>
+            Email: <a href= "mailto:vinceli@unc.edu">vinceli@unc.edu</a>
+            <br>
+            Email: <a href= "mailto:gnaixoah@unc.edu">gnaixoah@unc.edu</a>
+            <br>
+        </address>
+    </div>
+    <div id="certificate">
+      <h5>ICF Certificate:</h5>
+        <a href="https://coachingfederation.org/">Internation Coaching Federation</a>
+    </div>
+    <div id="credits">
+      <h5>Media Credits:</h5>
+      <a href="https://docs.google.com/document/d/1d3rsnkhNVNe7ioCUkfRSeWV_ZWLQ1Efp2FtFDPmTUwA">Click here to view them.</a>
+    </div>
+</footer>
+
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
+  </body>
 </html>

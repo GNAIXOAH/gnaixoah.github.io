@@ -1,0 +1,380 @@
+* {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: "Jersey 10", sans-serif;
+}
+h2,
+h3,
+p {
+  font-family: "Kanit", sans-serif;
+}
+header {
+  background-color: rgb(0, 48, 135, 0.9);
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.header h1 {
+  margin-left: 30px;
+}
+
+.nav {
+  align-self: center;
+}
+
+nav ul li {
+  font-size: 1.2em;
+}
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+nav ul li:focus {
+  text-decoration: underline;
+  outline: none; 
+}
+
+.menu-item {
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+#d1 {
+  left: 13%;
+}
+
+#d2 {
+  left: 13%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown-content a:focus {
+  background-color: #f1f1f1;
+  outline: none; 
+}
+
+.DropDown:hover .dropdown-content {
+  display: block;
+}
+.DropDown:focus .dropdown-content {
+  display: block;
+}
+
+.DropDown:hover .DropBTN {
+  background-color: rgb(123, 175, 212);
+}
+
+.DropDown:focus .DropBTN {
+  background-color: rgb(123, 175, 212);
+}
+
+main {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+.main-content img {
+  width: 100%;
+  height: auto;
+}
+.news {
+  color: white;
+  background-color: rgb(0, 48, 135, 0.9);
+  padding: 50px;
+}
+
+.footer {
+  justify-self: stretch;
+  text-align: center;
+  grid-column: 1;
+  color: white;
+  background-color: #9f9c9c;
+}
+.home button,
+.log-in button {
+  border: 0;
+  background-color: white;
+}
+
+.log-in button {
+  color: white;
+  background-color: #9d97b7;
+  padding: 20px 40px;
+  border-color: #9d97b7;
+  border-radius: 5px;
+}
+.main-content {
+  text-align: center;
+  padding: 50px;
+}
+
+.news,
+.main-content,
+.footer {
+  grid-column: 1;
+}
+
+.header nav a {
+  display: block;
+}
+.hr1 hr {
+  height: 2px;
+  border-width: 0;
+  color: #7bafd4;
+  background-color: #7bafd4;
+}
+.hr1 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+footer {
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(0, 48, 135);
+  padding: 20px;
+  width: 100%;
+}
+
+footer p {
+  color: white;
+  font-weight: bold;
+}
+footer a {
+  color: white;
+}
+
+.mission p {
+  color: white;
+  transition: all 1s ease;
+}
+
+.mission:hover p {
+  color: black;
+}
+.mission h1 {
+  color: black;
+  transition: color 1s ease;
+}
+.mission:hover h1 {
+  color: white;
+}
+
+.vision p {
+  color: white;
+  transition: all 1s ease;
+}
+
+.vision:hover p {
+  color: black;
+}
+.vision h1 {
+  color: black;
+  transition: color 1s ease;
+}
+.vision:hover h1 {
+  color: white;
+}
+
+.do p {
+  color: white;
+  transition: all 1s ease;
+}
+
+.do:hover p {
+  color: black;
+}
+.do h1 {
+  color: black;
+  transition: color 1s ease;
+}
+.do:hover h1 {
+  color: white;
+}
+
+.are p {
+  color: white;
+  transition: all 1s ease;
+}
+
+.are:hover p {
+  color: black;
+}
+.are h1 {
+  color: black;
+  transition: color 1s ease;
+}
+.are:hover h1 {
+  color: white;
+}
+
+.mission:focus p,
+.mission:focus h1,
+.vision:focus p,
+.vision:focus h1,
+.do:focus p,
+.do:focus h1,
+.are:focus p,
+.are:focus h1 {
+  color: black;
+  outline: none; 
+}
+
+.mission:focus h1,
+.vision:focus h1,
+.do:focus h1,
+.are:focus h1 {
+  color: white;
+}
+
+#credits, #certificate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: -10px;
+}
+
+#credits {
+  margin-top: -30px;
+}
+
+@media only screen and (min-width: 767px) {
+  header h1 {
+    width: 30%;
+  }
+
+  #d1 {
+    left: 13%;
+  }
+
+  #d2 {
+    left: 45.5%;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .news {
+    margin-top: 50px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .hr1 {
+    grid-row: 2;
+    background-color: white;
+    grid-column: 1 / 4;
+  }
+  .hr1 hr {
+    height: 2px;
+    border-width: 0;
+    color: #7bafd4;
+    background-color: #7bafd4;
+  }
+  .main-content {
+    grid-row: 1;
+    grid-column: 2 / 5;
+    display: grid;
+    text-align: center;
+  }
+  footer {
+    grid-column: 1 / 5;
+  }
+  .footer {
+    grid-row: 4;
+    text-align: center;
+    justify-items: stretch;
+    grid-column: 1 / 5;
+    background-color: #9f9c9c;
+  }
+
+  .upper {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+    justify-content: space-between;
+  }
+  .mission {
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 250px;
+    align-content: center;
+    text-align: center;
+    position: relative;
+  }
+  .h2 {
+    grid-column: 2;
+    grid-row: 1;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: 5px;
+  }
+  .vision {
+    grid-column: 3;
+    max-width: 250px;
+    grid-row: 1;
+    align-content: center;
+    text-align: center;
+  }
+  .pic {
+    grid-row: 3;
+  }
+  .lower {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 2;
+  }
+  .do {
+    grid-column: 1;
+    text-align: center;
+  }
+  .are {
+    grid-column: 2;
+    text-align: center;
+  }
+  header h1 {
+    width: 30%;
+  }
+
+  footer {
+    width: 98%;
+  }
+}
